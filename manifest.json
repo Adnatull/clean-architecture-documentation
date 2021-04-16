@@ -1,0 +1,368 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Learning/CleanArchitecture/CA/documentation/CA.Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Api.Controllers.BaseApiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Api.Controllers.BaseApiController.html",
+          "hash": "2Nux/EFR6851UAMW7BmxjBSQRJ2/CV8Ww6vemUPJUig="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Api.Controllers.v1.PostController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Api.Controllers.v1.PostController.html",
+          "hash": "07CnTWtMRR5a3H3y2wl1k8B43c5PMAEjI4YoivLB4lU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Api.Controllers.v1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Api.Controllers.v1.html",
+          "hash": "BlDcoOJsW4NUig0YuW+nm4fvRmeZPVQYR+blmeHmVqw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Api.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Api.Controllers.html",
+          "hash": "bdn5FnmAeNFO5nO3bWwGA4y5puSmk41O7HYeeDu5BJA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Api.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Api.Program.html",
+          "hash": "zJ7SN6hGh4Y6brwckl+6BjfVO6Oj0r1YIPOJtXfo2hQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Api.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Api.Startup.html",
+          "hash": "VIciZSHONSBQcv9V3XKzaiXlNOCnXx1rjNsW6P1em38="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Api.html",
+          "hash": "l6YgpNCgMuiWN/A/M7+rmtoHPk3GpKgOeGFgjRx52a0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Mvc.Areas.Admin.Controllers.BaseController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Mvc.Areas.Admin.Controllers.BaseController.html",
+          "hash": "0PxGP6JFtWyulyiv6a2l6GE48oLRO3UpIBeL5+l+/JU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Mvc.Areas.Admin.Controllers.CategoryController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Mvc.Areas.Admin.Controllers.CategoryController.html",
+          "hash": "CYZJrHjdbWi+wJfzMkmHGugEj2A+ZLzJrQ3mXaVeEAA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Mvc.Areas.Admin.Controllers.DashboardController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Mvc.Areas.Admin.Controllers.DashboardController.html",
+          "hash": "g3TRM1MuQ1pnkfmUf4Ft9m8J42NdfHV9ZFlqGnsleGs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Mvc.Areas.Admin.Controllers.PostController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Mvc.Areas.Admin.Controllers.PostController.html",
+          "hash": "8dkfke0/4YPYcR9yDC/+lsaEwAgFMqLpPJIKNTY0kbk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Mvc.Areas.Admin.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Mvc.Areas.Admin.Controllers.html",
+          "hash": "NvxWxAfen5k2FGAZMTb+Fyz/+GD9HGPDnOwlcWeP90E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Mvc.Controllers.BaseController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Mvc.Controllers.BaseController.html",
+          "hash": "MySFL92c73S6XMCuQ/QOOgwSq2LVQAsrvZv2sk4HHzo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Mvc.Controllers.HomeController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Mvc.Controllers.HomeController.html",
+          "hash": "P/hpbKBN3ixQyg0DRN0zwhOifW9Q4fCia9uBNpv7uKg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Mvc.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Mvc.Controllers.html",
+          "hash": "ZdsaVPVFoHJYBUjmzYLOGn4rjIgx0I9qwfMUxPjsTKU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Mvc.Models.ErrorViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Mvc.Models.ErrorViewModel.html",
+          "hash": "C0xPppzlOMuhPlHIAJZQPrLLfddgbzJCigQ2zQvf8mY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Mvc.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Mvc.Models.html",
+          "hash": "Ugu19YE6dXwlOIilkjCYxH5FQpKAJA1c2XNd3eGeArU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Mvc.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Mvc.Program.html",
+          "hash": "j/6RUydejJ4bmj3EcD6w0zuM2PTt3dlFKoeBSuKhsLg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Mvc.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Mvc.Startup.html",
+          "hash": "ZWFKxtypvBX1FsvbUZyL5c2o2pMJ/PrpDrhcYHtsn54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CA.Web.Mvc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CA.Web.Mvc.html",
+          "hash": "HUlLcO+tRwfrBEsTz/uYiTlPHFxazgfunLN9rJ6qWHY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "sUCx1fMzSPnjAYhquvNtO3R4RrWR6PrvyTvay2OSXP4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "qaeoHPFo3N7lwiYWJ5i7pztbqsrOiPNN2lS5wLXsvLg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "3tCu/lrvVl3Zw5LuT3/5yBZD4HGAdOyHZkut31VvuXg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "v1vm2upgesS2/+R0CVhRQvXOdFmk7HXCLbPk1RCyTpk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 20,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

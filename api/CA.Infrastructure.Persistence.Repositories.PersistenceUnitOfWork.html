@@ -1,0 +1,452 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PersistenceUnitOfWork
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PersistenceUnitOfWork
+   ">
+    <meta name="generator" content="docfx 2.57.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork">
+  
+  
+  <h1 id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork" class="text-break">Class PersistenceUnitOfWork
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">PersistenceUnitOfWork</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="CA.Core.Domain.Persistence.Contracts.IPersistenceUnitOfWork.html">IPersistenceUnitOfWork</a></div>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CA.Infrastructure.Persistence.Repositories.html">CA.Infrastructure.Persistence.Repositories</a></h6>
+  <h6><strong>Assembly</strong>: CA.Infrastructure.Persistence.dll</h6>
+  <h5 id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PersistenceUnitOfWork : IPersistenceUnitOfWork, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Adnatull/Clean-Architecture/new/master/apiSpec/new?filename=CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork__ctor_CA_Infrastructure_Persistence_Context_AppDbContext_CA_Core_Domain_Persistence_Contracts_IPostRepositoryAsync_CA_Core_Domain_Persistence_Contracts_IRepositoryAsync_CA_Core_Domain_Persistence_Entities_Comment__CA_Core_Domain_Persistence_Contracts_ICategoryRepositoryAsync_CA_Core_Domain_Persistence_Contracts_ITagRepositoryAsync_.md&amp;value=---%0Auid%3A%20CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.%23ctor(CA.Infrastructure.Persistence.Context.AppDbContext%2CCA.Core.Domain.Persistence.Contracts.IPostRepositoryAsync%2CCA.Core.Domain.Persistence.Contracts.IRepositoryAsync%7BCA.Core.Domain.Persistence.Entities.Comment%7D%2CCA.Core.Domain.Persistence.Contracts.ICategoryRepositoryAsync%2CCA.Core.Domain.Persistence.Contracts.ITagRepositoryAsync)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Adnatull/Clean-Architecture/blob/master/src/CA.Infrastructure.Persistence/Repositories/PersistenceUnitOfWork.cs/#L20">View Source</a>
+  </span>
+  <a id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork__ctor_" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.#ctor*"></a>
+  <h4 id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork__ctor_CA_Infrastructure_Persistence_Context_AppDbContext_CA_Core_Domain_Persistence_Contracts_IPostRepositoryAsync_CA_Core_Domain_Persistence_Contracts_IRepositoryAsync_CA_Core_Domain_Persistence_Entities_Comment__CA_Core_Domain_Persistence_Contracts_ICategoryRepositoryAsync_CA_Core_Domain_Persistence_Contracts_ITagRepositoryAsync_" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.#ctor(CA.Infrastructure.Persistence.Context.AppDbContext,CA.Core.Domain.Persistence.Contracts.IPostRepositoryAsync,CA.Core.Domain.Persistence.Contracts.IRepositoryAsync{CA.Core.Domain.Persistence.Entities.Comment},CA.Core.Domain.Persistence.Contracts.ICategoryRepositoryAsync,CA.Core.Domain.Persistence.Contracts.ITagRepositoryAsync)">PersistenceUnitOfWork(AppDbContext, IPostRepositoryAsync, IRepositoryAsync&lt;Comment&gt;, ICategoryRepositoryAsync, ITagRepositoryAsync)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PersistenceUnitOfWork(AppDbContext appDbContext, IPostRepositoryAsync post, IRepositoryAsync&lt;Comment&gt; comment, ICategoryRepositoryAsync category, ITagRepositoryAsync tag)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CA.Infrastructure.Persistence.Context.AppDbContext.html">AppDbContext</a></td>
+        <td><span class="parametername">appDbContext</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CA.Core.Domain.Persistence.Contracts.IPostRepositoryAsync.html">IPostRepositoryAsync</a></td>
+        <td><span class="parametername">post</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CA.Core.Domain.Persistence.Contracts.IRepositoryAsync-1.html">IRepositoryAsync</a>&lt;<a class="xref" href="CA.Core.Domain.Persistence.Entities.Comment.html">Comment</a>&gt;</td>
+        <td><span class="parametername">comment</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CA.Core.Domain.Persistence.Contracts.ICategoryRepositoryAsync.html">ICategoryRepositoryAsync</a></td>
+        <td><span class="parametername">category</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CA.Core.Domain.Persistence.Contracts.ITagRepositoryAsync.html">ITagRepositoryAsync</a></td>
+        <td><span class="parametername">tag</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Adnatull/Clean-Architecture/new/master/apiSpec/new?filename=CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Category.md&amp;value=---%0Auid%3A%20CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Category%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Adnatull/Clean-Architecture/blob/master/src/CA.Infrastructure.Persistence/Repositories/PersistenceUnitOfWork.cs/#L16">View Source</a>
+  </span>
+  <a id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Category_" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Category*"></a>
+  <h4 id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Category" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Category">Category</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICategoryRepositoryAsync Category { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CA.Core.Domain.Persistence.Contracts.ICategoryRepositoryAsync.html">ICategoryRepositoryAsync</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Adnatull/Clean-Architecture/new/master/apiSpec/new?filename=CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Comment.md&amp;value=---%0Auid%3A%20CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Comment%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Adnatull/Clean-Architecture/blob/master/src/CA.Infrastructure.Persistence/Repositories/PersistenceUnitOfWork.cs/#L18">View Source</a>
+  </span>
+  <a id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Comment_" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Comment*"></a>
+  <h4 id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Comment" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Comment">Comment</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRepositoryAsync&lt;Comment&gt; Comment { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CA.Core.Domain.Persistence.Contracts.IRepositoryAsync-1.html">IRepositoryAsync</a>&lt;<a class="xref" href="CA.Core.Domain.Persistence.Entities.Comment.html">Comment</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Adnatull/Clean-Architecture/new/master/apiSpec/new?filename=CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Linq2Db.md&amp;value=---%0Auid%3A%20CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Linq2Db%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Adnatull/Clean-Architecture/blob/master/src/CA.Infrastructure.Persistence/Repositories/PersistenceUnitOfWork.cs/#L19">View Source</a>
+  </span>
+  <a id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Linq2Db_" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Linq2Db*"></a>
+  <h4 id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Linq2Db" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Linq2Db">Linq2Db</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataConnection Linq2Db { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.Data.DataConnection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Adnatull/Clean-Architecture/new/master/apiSpec/new?filename=CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Post.md&amp;value=---%0Auid%3A%20CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Post%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Adnatull/Clean-Architecture/blob/master/src/CA.Infrastructure.Persistence/Repositories/PersistenceUnitOfWork.cs/#L15">View Source</a>
+  </span>
+  <a id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Post_" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Post*"></a>
+  <h4 id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Post" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Post">Post</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPostRepositoryAsync Post { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CA.Core.Domain.Persistence.Contracts.IPostRepositoryAsync.html">IPostRepositoryAsync</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Adnatull/Clean-Architecture/new/master/apiSpec/new?filename=CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Tag.md&amp;value=---%0Auid%3A%20CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Tag%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Adnatull/Clean-Architecture/blob/master/src/CA.Infrastructure.Persistence/Repositories/PersistenceUnitOfWork.cs/#L17">View Source</a>
+  </span>
+  <a id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Tag_" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Tag*"></a>
+  <h4 id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Tag" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Tag">Tag</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITagRepositoryAsync Tag { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CA.Core.Domain.Persistence.Contracts.ITagRepositoryAsync.html">ITagRepositoryAsync</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Adnatull/Clean-Architecture/new/master/apiSpec/new?filename=CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_CommitAsync.md&amp;value=---%0Auid%3A%20CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.CommitAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Adnatull/Clean-Architecture/blob/master/src/CA.Infrastructure.Persistence/Repositories/PersistenceUnitOfWork.cs/#L39">View Source</a>
+  </span>
+  <a id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_CommitAsync_" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.CommitAsync*"></a>
+  <h4 id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_CommitAsync" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.CommitAsync">CommitAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; CommitAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Adnatull/Clean-Architecture/new/master/apiSpec/new?filename=CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Dispose.md&amp;value=---%0Auid%3A%20CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Adnatull/Clean-Architecture/blob/master/src/CA.Infrastructure.Persistence/Repositories/PersistenceUnitOfWork.cs/#L33">View Source</a>
+  </span>
+  <a id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Dispose_" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Dispose*"></a>
+  <h4 id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Dispose" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Adnatull/Clean-Architecture/new/master/apiSpec/new?filename=CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Adnatull/Clean-Architecture/blob/master/src/CA.Infrastructure.Persistence/Repositories/PersistenceUnitOfWork.cs/#L44">View Source</a>
+  </span>
+  <a id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Dispose_" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Dispose*"></a>
+  <h4 id="CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork_Dispose_System_Boolean_" data-uid="CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="CA.Core.Domain.Persistence.Contracts.IPersistenceUnitOfWork.html">IPersistenceUnitOfWork</a>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Adnatull/Clean-Architecture/new/master/apiSpec/new?filename=CA_Infrastructure_Persistence_Repositories_PersistenceUnitOfWork.md&amp;value=---%0Auid%3A%20CA.Infrastructure.Persistence.Repositories.PersistenceUnitOfWork%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Adnatull/Clean-Architecture/blob/master/src/CA.Infrastructure.Persistence/Repositories/PersistenceUnitOfWork.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
